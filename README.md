@@ -1,62 +1,81 @@
-# [Start Bootstrap - Creative](https://startbootstrap.com/template-overviews/creative/)
+Aurora Template - [Demo](http://dominikserafin.github.io/aurora-template)
+===============
 
-[Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+### A free HTML5 template for personal and commercial usage.
 
-## Preview
+It was created for my [personal portfolio](http://serafin.io/?utm_source=Aurora-Template&utm_medium=GitHub-Readme&utm_campaign=Freebie) (but I've never used it) and now I'm releasing it for free. Edit and use this template as you want, except selling or crediting it as your own.
 
-[![Creative Preview](https://startbootstrap.com/assets/img/templates/creative.jpg)](https://blackrockdigital.github.io/startbootstrap-creative/)
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-creative/)**
+#### Share Template
 
-## Status
+- [Share on Facebook](https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fserafin.io%2Faurora-template%2F&t=Free%20Aurora%20Template)
+- [Share on Twitter](https://twitter.com/intent/tweet?source=http%3A%2F%2Fserafin.io%2Faurora-template%2F&text=Free%20Aurora%20Template:%20http%3A%2F%2Fserafin.io%2Faurora-template%2F&via=SerafinDominik)
+- [Share on Google+](https://plus.google.com/share?url=http%3A%2F%2Fserafin.io%2Faurora-template%2F)
+- [Post to Tumblr](http://www.tumblr.com/share?v=3&u=http%3A%2F%2Fserafin.io%2Faurora-template%2F&t=Free%20Aurora%20Template&s=)
+- [Pin It](http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fserafin.io%2Faurora-template%2F&description=Beautiful%20free%20HTML5%20template%20created%20by%20Dominik%20Serafin.)
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-creative/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-creative.svg)](https://www.npmjs.com/package/startbootstrap-creative)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-creative.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-creative)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-creative/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-creative)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-creative/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-creative?type=dev)
 
-## Download and Installation
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/creative/)
-* Install via npm: `npm i startbootstrap-creative`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-creative.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-creative)
+#### Follow Me
 
-## Usage
+- [Follow me on Twitter](https://twitter.com/SerafinDominik)
+- [Follow me on Dribbble](https://dribbble.com/DominikSerafin)
+- [Follow me on Behance](https://www.behance.net/dominikserafin)
 
-### Basic Usage
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-### Advanced Usage
+# Features
 
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+- Animated Background Gradient
+- Cool Project Showcase
+- Contact Form in PHP
+- Responsive, Fast and Mobile Friendly
+- Vector Icons and Font Awesome
+- Sass and BEM Modular Stylesheet (with SourceMaps)
 
-## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-creative/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/creative/).
 
-## Custom Builds
+# FAQ & Usage
 
-You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
+#### How can I change the e-mail address where contact form should send messages?
 
-## About
+Just edit line 55 in /php/contact_form.php
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+```
+    $to_email = "mail@example.com";
+```
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
+#### Contact form doesn't work :(
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+Make sure your server is able to execute PHP scripts and you've set a valid e-mail address.
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-## Copyright and License
+#### How to edit stylesheets?
 
-Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-creative/blob/gh-pages/LICENSE) license.
+Although it isn't recommend you can directly edit /style/css/global.css or overwrite it with your styles.
+
+If you know Sass and Gulp you shouldn't have a problem with editing provided stylesheets.
+
+
+
+#### How to edit favicon?
+
+Just use [Real Favicon Generator](http://realfavicongenerator.net/) and overwrite current favicon.
+
+
+#### Why do you have a commit titled "initial files ass"?
+
+It was meant to be "initial files add", but unfortunate typo is an unfortunate typo...
+
+
+# Support
+
+I'm busy most of the time so I can't provide extensive personal support. The code isn't that complicated, you probably shouldn't have any problems with it. If you do then please fill in issue and I'll try to help you at my free time.
+
+
+
+# Contributing
+
+If you've spotted a bug or you want to help in any way then please contribute by pull request or by filling an issue.
+
